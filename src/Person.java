@@ -12,4 +12,10 @@ public class Person {
     public void setName(String name) {
         this.name = name;
     }
+
+    public void printNameAndSecondName(String name, String secondName) {
+        System.out.println("Имя : " + name);
+        System.out.println("Фамилия : " + secondName);
+    }
+
 }
