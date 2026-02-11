@@ -13,9 +13,8 @@ public class Person {
         this.name = name;
     }
 
-    public void printNameAndSecondName(String name, String secondName) {
+    public void printName() {
         System.out.println("Имя : " + name);
-        System.out.println("Фамилия : " + secondName);
     }
 
 }

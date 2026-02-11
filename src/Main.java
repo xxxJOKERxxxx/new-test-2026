@@ -3,7 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Person person2 = new Person("Andrei");
-        person2.printNameAndSecondName("Evgeniy", "Malinovskiy");
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+
+        Person person2 = new Person(name);
+        person2.printName();
     }
 }
