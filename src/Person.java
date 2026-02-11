@@ -1,11 +1,12 @@
 public class Person {
 
-    public final double PI;
+   public static int count = 0;
     private String name;
 
     public Person(String name) {
         this.name = name;
-        PI = 3.14;
+        count++;
+
     }
 
     public String getName() {
