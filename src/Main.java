@@ -10,6 +10,6 @@ public class Main {
         System.out.println("Сколько лет вашему другу?");
         int age = sc.nextInt();
 
-        System.out.println("Моему другу " + name + " сейчас " + age + " лет!" );
+        System.out.println("Моему другу " + name + " сейчас " + age + " лет!");
     }
 }
