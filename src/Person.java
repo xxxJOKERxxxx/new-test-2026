@@ -1,8 +1,11 @@
 public class Person {
+
+    public final double PI;
     private String name;
 
     public Person(String name) {
         this.name = name;
+        PI = 3.14;
     }
 
     public String getName() {
