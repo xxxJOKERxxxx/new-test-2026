@@ -3,8 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Person person1 = new Person();
-        Person person2 = new Person("John");
+        Person person2 = new Person("Andrei");
+        System.out.println(person2.getName());
+        person2.setName("Alexander");
+        System.out.println(person2.getName());
 
 
     }
