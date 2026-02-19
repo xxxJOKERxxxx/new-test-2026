@@ -6,6 +6,7 @@ public class Main {
 
         Airoplane a = new Airoplane();
         a.fly();
+
         Butterfly b = new Butterfly();
         b.fly();
 
