@@ -5,4 +5,7 @@ public class Animal {
         this.name = name;
         this.age = age;
     }
+    public void makeSound(){
+        System.out.println("MakeSound");
+    }
 }
