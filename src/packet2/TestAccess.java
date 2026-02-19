@@ -6,6 +6,7 @@ public class TestAccess {
 
         System.out.println(obj.publicVar);
         System.out.println(obj.protectedVar);
+
         System.out.println(obj.defaultVar);
 
 
