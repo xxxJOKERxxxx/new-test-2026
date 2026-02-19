@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-       Dog bobik = new Dog("Bobik", 1, "Black");
 
-       bobik.overload("Bobik");
-       bobik.overload();
+        Airoplane a = new Airoplane();
+        a.fly();
+        Butterfly b = new Butterfly();
+        b.fly();
 
     }
 }
