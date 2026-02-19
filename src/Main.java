@@ -5,5 +5,8 @@ public class Main {
 
        Dog bobik = new Dog("Bobik", 1, "Black");
        bobik.makeSound();
+
+       Animal animal = new Animal("animal", 1);
+       animal.makeSound();
     }
 }
