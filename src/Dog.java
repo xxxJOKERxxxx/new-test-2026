@@ -10,4 +10,11 @@ public class Dog extends Animal {
     public void makeSound() {
         System.out.println("Woof!!!");
     }
+
+    public void overload() {
+        System.out.println("Emty");
+    }
+    public void overload(String name) {
+        System.out.println("Name : " + name);
+    }
 }
