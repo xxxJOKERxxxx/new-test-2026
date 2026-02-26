@@ -3,17 +3,18 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 
-        File file = new File("text.txt");
         try {
-            Scanner scanner = new Scanner(file);
-            System.out.println("Enter text file");
+            readFile();
         } catch (FileNotFoundException e) {
-            System.out.println(e.getMessage());
-        } finally {
-            System.out.println("100%");
+            e.printStackTrace();
         }
+    }
+
+    public static void readFile() throws FileNotFoundException {
+        File file = new File("text.txt");
+        Scanner scanner = new Scanner(file);
 
     }
 }
