@@ -4,17 +4,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args)  {
-
-        try {
-            readFile();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
+        int number = 10;
+        Scanner scanner = new Scanner(System.in);
+        int i =  scanner.nextInt();
+        System.out.println(number/i);
     }
 
-    public static void readFile() throws FileNotFoundException {
-        File file = new File("text.txt");
-        Scanner scanner = new Scanner(file);
-
-    }
 }
