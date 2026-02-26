@@ -7,6 +7,10 @@ public class Main {
         int number = 10;
         Scanner scanner = new Scanner(System.in);
         int i =  scanner.nextInt();
+
+        if (i == 0) {
+            System.out.println("деление на ноль запрещено!!!");
+        }
         System.out.println(number/i);
     }
 
